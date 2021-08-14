@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Práctico JS</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-purple-100">
+
+<header class=container>
+    <h1 class="text-center text-2xl my-8">Figuras geométricas</h1>
+</header>
+<main class="container">
+    <section>
+        <h2 class="text-center font-bold text-xl mb-4">Calcula el área y el perímetro de un cuadrado</h2>
+        <form class = "flex flex-col ">
+            <label class="text-center text-lg mx-auto block mb-2" for="ladoCuadrado">Escribe cuanto miden los lados del cuadrado</label>
+            <input class="shadow-lg text-center w-1/4 mx-auto bg-green-100 text-lg p-2 font-bold" id="ladoCuadrado" type="number">
+            <section class="flex justify-center my-4">
+                <button class="font-bold btn bg-yellow-200 mx-8 p-2 rounded-md" type="button" onClick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                <button class="font-bold btn bg-blue-300 mx-8 p-2 rounded-md" type="button" onClick="calcularPerimetroCuadrado()">Calcular el área</button>
+            </section>
+            
+        </form>
+    </section>
+</main>
+    
+
+    <script src="./figuras.js">
+
+    </script>
+</body>
+</html>

@@ -6,5 +6,26 @@
   },
   "dependencies": {
     "postcss-cli": "^8.3.1"
-  }
+  },
+  "name": "practicojs",
+  "description": "Curso practico de JS de Platzi",
+  "version": "1.0.0",
+  "main": "figuras.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilia2020/PracticoJS.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "Jorge Niglia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nilia2020/PracticoJS/issues"
+  },
+  "homepage": "https://github.com/nilia2020/PracticoJS#readme"
 }
