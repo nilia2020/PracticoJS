@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figuras geométricas | Práctico JS</title>
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-<body class="bg-purple-100">
-
-<header class=container>
-    <h1 class="text-center text-2xl my-8">Figuras geométricas</h1>
-</header>
-<main class="container">
-    <section>
-        <h2 class="text-center font-bold text-xl mb-4">Calcula el área y el perímetro de un cuadrado</h2>
-        <form class = "flex flex-col ">
-            <label class="text-center text-lg mx-auto block mb-2" for="ladoCuadrado">Escribe cuanto miden los lados del cuadrado</label>
-            <input class="shadow-lg text-center w-1/4 mx-auto bg-green-100 text-lg p-2 font-bold" id="ladoCuadrado" type="number">
-            <section class="flex justify-center my-4">
-                <button class="font-bold btn bg-yellow-200 mx-8 p-2 rounded-md" type="button" onClick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
-                <button class="font-bold btn bg-blue-300 mx-8 p-2 rounded-md" type="button" onClick="calcularPerimetroCuadrado()">Calcular el área</button>
-            </section>
-            
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-purple-100">
+    <header class="container">
+      <h1 class="font-bold text-center text-3xl my-8">Figuras geométricas</h1>
+    </header>
+    <main class="container">
+      <section class ="w-2/3 mx-auto rounded-lg p-2 bg-green-100 shadow-lg">
+        <h2 class="text-center font-bold text-xl my-4 ">
+          Calcula el área y el perímetro de un cuadrado
+        </h2>
+        <img class="h-48 mx-auto" src="../assets/img/Square.svg" alt="square" />
+        <form class="flex flex-col">
+          <label
+            class="text-center text-lg mx-auto block mb-2"
+            for="ladoCuadrado"
+            >Escribe cuanto miden los lados del cuadrado</label
+          >
+          <input
+            class="
+              shadow-lg
+              text-center
+              w-1/4
+              mx-auto
+              bg-red-100
+              text-xl
+              p-2
+              font-bold
+              rounded-md
+              my-2
+            "
+            id="inputCuadrado"
+            type="number"
+          />
+          <section class="flex justify-center my-8">
+            <button
+              class="shadow-lg font-bold btn bg-yellow-200 mx-12 p-2 rounded-md"
+              type="button"
+              onClick="calcularPerimetroCuadrado()"
+            >
+              Calcular el perímetro
+            </button>
+            <button
+              class="shadow-lg font-bold btn bg-blue-300 mx-12 p-2 rounded-md"
+              type="button"
+              onClick="calcularAreaCuadrado() "
+            >
+              Calcular el área
+            </button>
+          </section>
         </form>
-    </section>
-</main>
-    
+      </section>
+    </main>
 
-    <script src="./figuras.js">
-
-    </script>
-</body>
+    <script src="../figuras.js"></script>
+  </body>
 </html>
