@@ -83,7 +83,6 @@ input {
 img,
 svg {
   display: block;
-  vertical-align: middle;
 }
 img {
   height: auto;
