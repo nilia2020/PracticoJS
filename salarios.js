@@ -1,0 +1,90 @@
+const argentina = [];
+
+argentina.push({
+    name:"Juan",
+    salary:300,
+})
+argentina.push({
+    name:"Pedro",
+    salary:250,
+})
+argentina.push({
+    name:"Paula",
+    salary:2500,
+})
+argentina.push({
+    name:"Luz",
+    salary:2300,
+})
+argentina.push({
+    name:"Dario",
+    salary:2300,
+})
+argentina.push({
+    name:"Jorge",
+    salary:6300,
+})
+argentina.push({
+    name:"Diego",
+    salary:3300,
+})
+argentina.push({
+    name:"Jeremias",
+    salary:3300,
+})
+argentina.push({
+    name:"Sergio",
+    salary:700,
+})
+argentina.push({
+    name:"Mario",
+    salary:900,
+})
+argentina.push({
+    name:"Leticia",
+    salary:700,
+})
+argentina.push({
+    name:"Rolando",
+    salary:2300,
+})
+argentina.push({
+    name:"Ines",
+    salary:1400,
+})
+argentina.push({
+    name:"Maria",
+    salary:550,
+})
+argentina.push({
+    name:"Miguel",
+    salary:650,
+})
+argentina.push({
+    name:"Jessica",
+    salary:3500,
+})
+argentina.push({
+    name:"Gabriel",
+    salary:9300,
+})
+argentina.push({
+    name:"Guillermo",
+    salary:6100,
+})
+argentina.push({
+    name:"Rodrigo",
+    salary:250,
+})
+argentina.push({
+    name:"Adriana",
+    salary:180,
+})
+argentina.push({
+    name:"David",
+    salary:1000,
+})
+argentina.push({
+    name:"Mica",
+    salary:2000,
+})

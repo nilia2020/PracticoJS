@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porcentajes y descuentos | PractivoJS</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-red-100">
+    <header class="container">
+      <h1 class="font-bold text-4xl text-center my-8 text-indigo-900">Porcentajes y descuentos</h1>
+      <p class="font-bold text-3xl text-center mb-4">Segundo taller</p>
+    </header>
+    <main class="container">
+      <section class="flex flex-col items-center">
+        <h2 class="font-bold my-4 text-2xl">
+          Calculá el precio a pagar de tus productos
+        </h2>
+
+        <form action="" class="flex flex-col w-3/4 items-center">
+          <label class="my-2 font-semibold" for="inputPrice"
+            >Escribe el precio de tu producto:</label
+          >
+          <input
+            class="text-xl p-2 my-2 shadow-lg bg-yellow-100 rounded-xl"
+            id="inputPrice"
+            type="number"
+          />
+          <label class="my-2 font-semibold" for="inputDiscount"
+            >Escribe el % de descuento</label
+          >
+          <input
+            class="text-xl p-2 my-2 shadow-lg bg-yellow-100 rounded-xl"
+            id="inputDiscount"
+            type="number"
+          />
+
+          <button
+            class="my-2 p-2 bg-gray-300 rounded-xl font-bold border-2 border-blue-300"
+            type="button"
+            onclick="onClickButtonPriceDiscount()"
+          >
+            Calcular el precio con descuento
+          </button>
+          <p class ="text-xl my-2 font-bold bg-gray-200 text-center" id="finalPrice"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="../descuentos.js"></script>
+  </body>
+</html>

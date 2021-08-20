@@ -4,10 +4,9 @@
     "autoprefixer": "^10.3.1",
     "cssnano": "^5.0.7",
     "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
     "tailwindcss": "^2.2.7"
-  },
-  "dependencies": {
-    "postcss-cli": "^8.3.1"
   },
   "name": "practicojs",
   "description": "Curso practico de JS de Platzi",
@@ -15,7 +14,8 @@
   "main": "figuras.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss css/tailwind.css -o public/css/styles.css"
+    "build:css": "postcss ./css/tailwind.css -o ./public/css/styles.css",
+    "build": "NODE_ENV=production postcss ./css/tailwind.css -o ./public/css/styles.css"
   },
   "repository": {
     "type": "git",
